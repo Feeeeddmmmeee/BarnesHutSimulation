@@ -1,7 +1,7 @@
 #include "Vector.h"
 
 // quake's fast inverse square root algorithm
-static float fastInverseSquareRoot(float number)
+float fastInverseSquareRoot(float number)
 {
 	const float threehalfs = 1.5F;
 
